@@ -1,6 +1,7 @@
 #!/bin/bash
 
 <<info
+Creating backup script
 This shell script will take a perodic backups whenever we run the script
 e.g.,
 scr = /home/ubuntu/scripts
@@ -19,3 +20,5 @@ echo "Backup Completed"
 aws s3 sync "$dest" s3://mayank-backup-e
 
 echo "Backups are Sync in S3"
+
+
